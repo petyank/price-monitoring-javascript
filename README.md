@@ -1,4 +1,4 @@
-# Price Monitoring tests with Selenium, JavaScript and Cucummber
+# Price Monitoring tests with Selenium, JavaScript and Cucumber
 This project is designed to monitor the prices of Bitcoin (BTC) at given time intervals over a specified duration. The automation is implemented using Selenium for browser interaction, JavaScript for scripting, and Cucumber for behavior-driven development (BDD). 
 
 ## Prerequisites
@@ -36,7 +36,7 @@ This command will execute the BDD test scenarios defined in the features directo
 
 - features/: Contains the feature files and step definitions.
 - page_objects/: Page Object Model (POM) scripts.
-- reportss/: Contains the Allure reports with the results of the test runs.
+- reports/: Contains the Allure reports with the results of the test runs.
 - step-definitions/: Directory containing step definition files written in JavaScript.
 - financePage.js: Script representing the finance page containing the BTC price element.
 - support/: Utility scripts.
