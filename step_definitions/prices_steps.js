@@ -7,7 +7,6 @@ import { BASE_URL } from "../config.js";
 import Utils from "../support/utils.mjs";
 import FinancePage from "../page_objects/financePage.js";
 
-// This can be also done using CustomWorld like in the API tests project
 let initialPrice;
 let prices = [];
 
