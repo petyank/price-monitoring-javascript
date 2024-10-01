@@ -12,7 +12,6 @@ import TermsAndConditionsPage from "../page_objects/termsAndConditionsPage.js";
 class CustomWorld {
   /**
    * Initializes the driver and page objects.
-   * @returns {Promise<void>} A promise that resolves when the initialization is complete.
    */
   async init() {
     this.driver = await createDriver();
@@ -22,7 +21,6 @@ class CustomWorld {
 
   /**
    * Cleans up the driver instance.
-   * @returns {Promise<void>} A promise that resolves when the cleanup is complete.
    */
   async cleanUp() {
     if (this.driver) {
